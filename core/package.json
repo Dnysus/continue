@@ -17,7 +17,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@babel/preset-env": "^7.24.7",
-    "@biomejs/biome": "1.6.4",
+    "@biomejs/biome": "2.5.9",
     "@google/generative-ai": "^0.11.4",
     "@modelcontextprotocol/ext-apps": "^1.0.1",
     "@shikijs/colorized-brackets": "^3.7.0",
