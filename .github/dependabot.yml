@@ -6,3 +6,34 @@ updates:
       interval: daily
     ignore:
       - dependency-name: dtolnay/rust-toolchain
+
+  - package-ecosystem: npm
+    directories:
+      - "/"
+      - "/binary"
+      - "/core"
+      - "/docs"
+      - "/docs-site"
+      - "/extensions/cli"
+      - "/extensions/vscode"
+      - "/gui"
+      - "/packages/config-types"
+      - "/packages/config-yaml"
+      - "/packages/continue-sdk"
+      - "/packages/continue-sdk/typescript"
+      - "/packages/fetch"
+      - "/packages/llm-info"
+      - "/packages/openai-adapters"
+      - "/packages/terminal-security"
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: gradle
+    directory: "/extensions/intellij"
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: cargo
+    directory: "/sync"
+    schedule:
+      interval: weekly
