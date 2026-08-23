@@ -17,7 +17,7 @@ dirs = "6.0.0"
 hex-literal = "1.1.0"
 homedir = "0.2.1"
 ignore = "0.4.20"
-ndarray = "0.15.6"
+ndarray = "0.17.2"
 rand = "0.10.2"
 rusqlite = { version = "0.30.0", features = ["bundled"] }
 serde = { version = "1.0.192", features = ["derive"] }
