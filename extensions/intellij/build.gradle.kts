@@ -12,7 +12,7 @@ val isEap get() = environment("RELEASE_CHANNEL").orNull == "eap"
 
 plugins {
     kotlin("jvm") version "2.4.10"
-    id("org.jetbrains.intellij.platform") version "2.7.2"
+    id("org.jetbrains.intellij.platform") version "2.18.1"
     id("org.jetbrains.changelog") version "2.5.0"
     id("org.jetbrains.qodana") version "0.1.13"
 }
