@@ -89,7 +89,7 @@
     "chalk": "^5.4.1",
     "clipboardy": "^4.0.0",
     "commander": "^14.0.0",
-    "conventional-changelog-conventionalcommits": "^9.1.0",
+    "conventional-changelog-conventionalcommits": "^10.4.0",
     "core": "file:../../core",
     "cross-env": "^7.0.3",
     "date-fns": "^4.1.0",
