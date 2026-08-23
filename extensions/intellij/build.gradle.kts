@@ -58,7 +58,7 @@ dependencies {
     testRuntimeOnly("org.junit.vintage:junit-vintage-engine:5.10.0") // required to run both JUnit 5 and JUnit 3
 
     testIntegrationImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
-    testIntegrationImplementation("org.kodein.di:kodein-di-jvm:7.20.2")
+    testIntegrationImplementation("org.kodein.di:kodein-di-jvm:7.33.0")
     testIntegrationImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.11.0")
 }
 
