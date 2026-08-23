@@ -143,7 +143,7 @@
     "picomatch": "^4.0.2"
   },
   "optionalDependencies": {
-    "@img/sharp-darwin-arm64": "^0.33.5",
+    "@img/sharp-darwin-arm64": "^0.35.3",
     "@img/sharp-darwin-x64": "^0.33.5",
     "@img/sharp-linux-arm": "^0.33.5",
     "@img/sharp-linux-arm64": "^0.33.5",
