@@ -754,7 +754,7 @@
     "react-redux": "^8.0.5",
     "read-last-lines": "^1.8.0",
     "socket.io-client": "^4.7.2",
-    "strip-ansi": "^7.1.0",
+    "strip-ansi": "^7.2.0",
     "svg-builder": "^2.0.0",
     "systeminformation": "^5.30.8",
     "tailwindcss": "^3.3.2",
