@@ -752,7 +752,7 @@
     "node-machine-id": "^1.1.12",
     "react-markdown": "^8.0.7",
     "react-redux": "^8.0.5",
-    "read-last-lines": "^1.8.0",
+    "read-last-lines": "^1.10.0",
     "socket.io-client": "^4.7.2",
     "strip-ansi": "^7.2.0",
     "svg-builder": "^2.0.0",
