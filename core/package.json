@@ -21,7 +21,7 @@
     "@google/generative-ai": "^0.11.4",
     "@modelcontextprotocol/ext-apps": "^1.0.1",
     "@shikijs/colorized-brackets": "^4.4.3",
-    "@shikijs/transformers": "^3.7.0",
+    "@shikijs/transformers": "^4.4.3",
     "@types/diff": "^7.0.1",
     "@types/follow-redirects": "^1.14.4",
     "@types/jest": "^29.5.12",
