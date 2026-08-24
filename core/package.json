@@ -96,7 +96,7 @@
     "mac-ca": "^3.1.0",
     "node-fetch": "^3.3.2",
     "node-html-markdown": "^2.0.0",
-    "ollama": "^0.4.6",
+    "ollama": "^0.6.3",
     "onnxruntime-node": "1.27.0",
     "openai": "^5.13.1",
     "p-limit": "^7.3.1",
