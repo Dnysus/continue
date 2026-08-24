@@ -707,7 +707,7 @@
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@vscode/vsce": "^2.22.0",
     "cargo-cp-artifact": "^0.1",
-    "chai": "^4.5.0",
+    "chai": "^6.2.2",
     "esbuild": "^0.25.0",
     "esbuild-visualizer": "^0.6.0",
     "eslint": "^8.28.0",
