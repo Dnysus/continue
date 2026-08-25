@@ -699,7 +699,7 @@
     "@types/mocha": "^10.0.10",
     "@types/node": "16.x",
     "@types/node-fetch": "^2.6.12",
-    "@types/react-dom": "^18.2.4",
+    "@types/react-dom": "^19.2.4",
     "@types/request": "^2.48.8",
     "@types/uuid": "^10.0.0",
     "@types/vscode": "1.134",
