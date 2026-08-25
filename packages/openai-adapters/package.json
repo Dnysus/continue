@@ -17,7 +17,7 @@
     "@ai-sdk/deepseek": "^3.0.30",
     "@ai-sdk/openai": "^4.0.45",
     "@ai-sdk/xai": "^4.0.42",
-    "@anthropic-ai/sdk": "^0.67.0",
+    "@anthropic-ai/sdk": "^0.120.0",
     "@aws-sdk/client-bedrock-runtime": "^3.931.0",
     "@aws-sdk/credential-providers": "^3.974.0",
     "@continuedev/config-types": "^1.0.14",
