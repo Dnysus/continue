@@ -12,7 +12,7 @@
   "author": "Nate Sesti and Ty Dunn",
   "license": "Apache-2.0",
   "dependencies": {
-    "@ai-sdk/anthropic": "^3.0.44",
+    "@ai-sdk/anthropic": "^4.0.40",
     "@ai-sdk/google": "^3.0.30",
     "@ai-sdk/deepseek": "^2.0.20",
     "@ai-sdk/openai": "^3.0.29",
