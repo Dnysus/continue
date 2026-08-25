@@ -22,7 +22,7 @@
     "@modelcontextprotocol/ext-apps": "^1.0.1",
     "@shikijs/colorized-brackets": "^4.4.3",
     "@shikijs/transformers": "^4.4.3",
-    "@types/diff": "^7.0.1",
+    "@types/diff": "^8.0.0",
     "@types/follow-redirects": "^1.14.4",
     "@types/jest": "^29.5.12",
     "@types/jquery": "^4.0.1",
