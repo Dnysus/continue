@@ -45,7 +45,7 @@
     "@types/json-schema": "^7.0.15",
     "@types/node": "^26.2.0",
     "cross-env": "^10.1.0",
-    "semantic-release": "^24.2.7",
+    "semantic-release": "^25.0.9",
     "ts-jest": "^29.2.3",
     "ts-node": "^10.9.2",
     "vitest": "^4.1.11"
