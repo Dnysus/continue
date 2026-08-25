@@ -37,3 +37,8 @@ updates:
     directory: "/sync"
     schedule:
       interval: weekly
+
+  - package-ecosystem: pip
+    directory: "/packages/continue-sdk/python/api"
+    schedule:
+      interval: weekly
