@@ -705,7 +705,7 @@
     "@types/vscode": "1.134",
     "@types/ws": "^8.18.1",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
-    "@vscode/vsce": "^2.22.0",
+    "@vscode/vsce": "^3.9.2",
     "cargo-cp-artifact": "^0.1",
     "chai": "^6.2.2",
     "esbuild": "^0.25.0",
