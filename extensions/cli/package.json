@@ -108,7 +108,7 @@
     "happy-dom": "^20.0.0",
     "ignore": "^7.0.5",
     "ignore-walk": "^9.0.0",
-    "ink": "^6.1.0",
+    "ink": "^7.1.1",
     "ink-testing-library": "^4.0.0",
     "jsdom": "^26.1.0",
     "jszip": "^3.10.1",
