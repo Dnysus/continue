@@ -28,7 +28,7 @@
     "@tiptap/extension-dropcursor": "^3.30.2",
     "@tiptap/extension-history": "^3.30.2",
     "@tiptap/extension-image": "^3.30.2",
-    "@tiptap/extension-mention": "^2.27.1",
+    "@tiptap/extension-mention": "^3.30.2",
     "@tiptap/extension-paragraph": "^3.30.2",
     "@tiptap/extension-placeholder": "^3.30.2",
     "@tiptap/extension-text": "^3.30.2",
