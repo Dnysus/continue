@@ -100,7 +100,7 @@
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-unused-imports": "^4.1.4",
-    "execa": "^9.6.0",
+    "execa": "^10.0.1",
     "express": "^5.1.0",
     "glob": "^11.0.3",
     "gpt-tokenizer": "^4.0.0",
