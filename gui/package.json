@@ -23,7 +23,7 @@
     "@modelcontextprotocol/ext-apps": "^1.0.1",
     "@panzoom/panzoom": "^4.6.0",
     "@reduxjs/toolkit": "^2.12.0",
-    "@tiptap/core": "^2.27.0",
+    "@tiptap/core": "^3.30.2",
     "@tiptap/extension-document": "^2.27.0",
     "@tiptap/extension-dropcursor": "^2.27.0",
     "@tiptap/extension-history": "^2.27.1",
