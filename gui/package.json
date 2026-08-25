@@ -102,7 +102,7 @@
     "@vitejs/plugin-react-swc": "^3.9.0",
     "@vitest/coverage-v8": "^4.1.11",
     "@vitest/ui": "^4.1.11",
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.5.4",
     "eslint": "^8",
     "eslint-plugin-no-barrel-files": "^1.2.1",
     "eslint-plugin-react": "^7.37.2",
