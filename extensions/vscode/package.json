@@ -729,7 +729,7 @@
     "cors": "^2.8.6",
     "dbinfoz": "^0.14.0",
     "diff": "^8.0.4",
-    "downshift": "^7.6.0",
+    "downshift": "^9.4.0",
     "express": "^5.2.1",
     "fkill": "^10.0.3",
     "follow-redirects": "^1.15.4",
