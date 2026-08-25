@@ -117,7 +117,7 @@
     "nock": "^14.0.5",
     "node-fetch": "^3.3.2",
     "node-machine-id": "^1.1.12",
-    "open": "^10.1.0",
+    "open": "^11.0.1",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "react": "^19.1.0",
