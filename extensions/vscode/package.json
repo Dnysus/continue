@@ -692,7 +692,7 @@
     "@biomejs/biome": "1.6.4",
     "@nestjs/common": "^11.2.1",
     "@openapitools/openapi-generator-cli": "^2.40.1",
-    "@types/chai": "^5.0.1",
+    "@types/chai": "^5.2.3",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/follow-redirects": "^1.14.4",
