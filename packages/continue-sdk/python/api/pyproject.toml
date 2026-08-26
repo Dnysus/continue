@@ -18,7 +18,7 @@ pydantic = ">=2.13.4"
 typing-extensions = ">=4.13.2"
 
 [tool.poetry.dev-dependencies]
-pytest = ">=8.3.5"
+pytest = ">=9.1.1"
 pytest-cov = ">=5.0.0"
 tox = ">=4.60.0"
 flake8 = ">=5.0.4"
