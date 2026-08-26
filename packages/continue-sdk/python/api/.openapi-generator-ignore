@@ -21,3 +21,8 @@
 #docs/*.md
 # Then explicitly reverse the ignore rule for a single file:
 #!docs/README.md
+
+# Keep manually-set Python 3.10 minimum from being overwritten on regeneration
+pyproject.toml
+setup.py
+.github/workflows/python.yml
