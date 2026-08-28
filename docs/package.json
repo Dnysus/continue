@@ -13,7 +13,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "mintlify": "^4.2.819"
+    "mintlify": "^4.2.821"
   },
   "dependencies": {
     "@c15t/react": "^2.2.1",
