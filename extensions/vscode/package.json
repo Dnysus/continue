@@ -690,7 +690,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.6.4",
-    "@nestjs/common": "^11.2.1",
+    "@nestjs/common": "^11.2.3",
     "@openapitools/openapi-generator-cli": "^2.41.0",
     "@types/chai": "^5.2.3",
     "@types/cors": "^2.8.19",
