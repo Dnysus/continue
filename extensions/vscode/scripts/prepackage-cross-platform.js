@@ -75,7 +75,7 @@ function ghAction() {
 async function package(target, os, arch, exe) {
   console.log("[info] Packaging extension for target ", target);
 
-  // Copy config_schema to intellij
+  // Generate config schema files
   await generateAndCopyConfigYamlSchema();
 
   // Install node_modules
