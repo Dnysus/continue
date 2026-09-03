@@ -25,6 +25,6 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
-    "@ai-sdk/deepseek": "^3.0.35"
+    "@ai-sdk/deepseek": "^3.0.37"
   }
 }
