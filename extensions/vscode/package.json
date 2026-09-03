@@ -763,7 +763,7 @@
     "uuidv4": "^6.2.13",
     "vectordb": "0.4.20",
     "vitest": "^3.1.4",
-    "vscode-languageclient": "^10.1.0",
+    "vscode-languageclient": "^10.1.1",
     "ws": "^8.21.3",
     "yarn": "^1.22.21"
   },
