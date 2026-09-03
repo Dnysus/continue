@@ -9,8 +9,7 @@ function runCommand(command, cwd, packageName) {
   return new Promise((resolve, reject) => {
     console.log(`Starting ${packageName}: ${command}`);
 
-    const [cmd, ...args] = command.split(" ");
-    const child = spawn(cmd, args, {
+    const child = spawn(command, {
       cwd,
       stdio: "pipe",
       shell: true,

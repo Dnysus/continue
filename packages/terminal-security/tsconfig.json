@@ -12,7 +12,8 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "types": ["node"],
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true
   },

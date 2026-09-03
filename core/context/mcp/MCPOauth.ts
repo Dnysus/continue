@@ -1,17 +1,16 @@
 import {
-  OAuthClientProvider,
-  auth,
+    OAuthClientProvider,
+    auth,
 } from "@modelcontextprotocol/sdk/client/auth.js";
 import {
-  OAuthClientInformationFull,
-  OAuthClientInformationSchema,
-  OAuthTokens,
-  OAuthTokensSchema,
+    OAuthClientInformationFull,
+    OAuthClientInformationSchema,
+    OAuthTokens,
+    OAuthTokensSchema,
 } from "@modelcontextprotocol/sdk/shared/auth.js";
 import { IDE } from "../..";
 
 import http from "http";
-import url from "url";
 import { v4 as uuidv4 } from "uuid";
 import { GlobalContext, GlobalContextType } from "../../util/GlobalContext";
 
@@ -37,13 +36,13 @@ const createServerForOAuth = () =>
         throw new Error("no url found");
       }
 
-      const parsedUrl = url.parse(req.url, true);
-      if (!parsedUrl.query["code"]) {
+      const parsedUrl = new URL(req.url, "http://localhost");
+      const code = parsedUrl.searchParams.get("code");
+      if (!code) {
         throw new Error("no query params found");
       }
 
-      const code = parsedUrl.query["code"] as string;
-      const state = parsedUrl.query["state"] as string | undefined;
+      const state = parsedUrl.searchParams.get("state") ?? undefined;
 
       void handleMCPOauthCode(code, state);
 
