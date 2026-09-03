@@ -1,56 +1,56 @@
 import {
-  ContentBlockParam,
-  MessageCreateParams,
-  MessageParam,
-  RawContentBlockDeltaEvent,
-  RawContentBlockStartEvent,
-  RawMessageDeltaEvent,
-  RawMessageStartEvent,
-  RawMessageStreamEvent,
-  Tool,
-  ToolUseBlock,
+    ContentBlockParam,
+    MessageCreateParams,
+    MessageParam,
+    RawContentBlockDeltaEvent,
+    RawContentBlockStartEvent,
+    RawMessageDeltaEvent,
+    RawMessageStartEvent,
+    RawMessageStreamEvent,
+    Tool,
+    ToolUseBlock,
 } from "@anthropic-ai/sdk/resources";
 import { streamSse } from "@continuedev/fetch";
 import { OpenAI } from "openai/index";
 import {
-  ChatCompletion,
-  ChatCompletionChunk,
-  ChatCompletionContentPartRefusal,
-  ChatCompletionContentPartText,
-  ChatCompletionCreateParamsNonStreaming,
-  ChatCompletionCreateParamsStreaming,
-  Completion,
-  CompletionCreateParamsNonStreaming,
-  CompletionCreateParamsStreaming,
-  CompletionUsage,
+    ChatCompletion,
+    ChatCompletionChunk,
+    ChatCompletionContentPartRefusal,
+    ChatCompletionContentPartText,
+    ChatCompletionCreateParamsNonStreaming,
+    ChatCompletionCreateParamsStreaming,
+    Completion,
+    CompletionCreateParamsNonStreaming,
+    CompletionCreateParamsStreaming,
+    CompletionUsage,
 } from "openai/resources/index";
 import { ChatCompletionCreateParams } from "openai/resources/index.js";
 import { AnthropicConfig } from "../types.js";
 import {
-  chatChunk,
-  chatChunkFromDelta,
-  customFetch,
-  usageChatChunk,
+    chatChunk,
+    chatChunkFromDelta,
+    customFetch,
+    usageChatChunk,
 } from "../util.js";
 import { EMPTY_CHAT_COMPLETION } from "../util/emptyChatCompletion.js";
 import { safeParseArgs } from "../util/parseArgs.js";
 import { extractBase64FromDataUrl } from "../util/url.js";
 import {
-  CACHING_STRATEGIES,
-  CachingStrategyName,
+    CACHING_STRATEGIES,
+    CachingStrategyName,
 } from "./AnthropicCachingStrategies.js";
 import {
-  addCacheControlToLastTwoUserMessages,
-  getAnthropicHeaders,
-  getAnthropicMediaTypeFromDataUrl,
-  openAiToolChoiceToAnthropicToolChoice,
-  openaiToolToAnthropicTool,
+    addCacheControlToLastTwoUserMessages,
+    getAnthropicHeaders,
+    getAnthropicMediaTypeFromDataUrl,
+    openAiToolChoiceToAnthropicToolChoice,
+    openaiToolToAnthropicTool,
 } from "./AnthropicUtils.js";
 import {
-  BaseLlmApi,
-  CreateRerankResponse,
-  FimCreateParamsStreaming,
-  RerankCreateParams,
+    BaseLlmApi,
+    CreateRerankResponse,
+    FimCreateParamsStreaming,
+    RerankCreateParams,
 } from "./base.js";
 
 export class AnthropicApi implements BaseLlmApi {
@@ -169,6 +169,7 @@ export class AnthropicApi implements BaseLlmApi {
         type: "tool_use",
         id: toolCallId,
         name: toolName,
+        caller: { type: "direct" },
         input: safeParseArgs(
           toolCall.function.arguments,
           `${toolName} ${toolCallId}`,

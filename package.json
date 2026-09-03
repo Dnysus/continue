@@ -15,13 +15,13 @@
   "devDependencies": {
     "@typescript-eslint/parser": "^8.69.0",
     "concurrently": "^10.0.5",
-    "eslint": "^10",
+    "eslint": "^9",
     "eslint-plugin-import": "^2.32.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.4.1",
     "prettier": "^3.9.6",
     "prettier-plugin-tailwindcss": "^0.8.1",
-    "typescript": "^7.0.2"
+    "typescript": "~6.0.3"
   },
   "dependencies": {
     "@ai-sdk/deepseek": "^3.0.37"

@@ -1,37 +1,36 @@
 import type { CompletionUsage } from "openai/resources/index.js";
 import {
-  ChatCompletion,
-  ChatCompletionAssistantMessageParam,
-  ChatCompletionChunk,
-  ChatCompletionContentPart,
-  ChatCompletionContentPartImage,
-  ChatCompletionContentPartInputAudio,
-  ChatCompletionContentPartRefusal,
-  ChatCompletionContentPartText,
-  ChatCompletionCreateParams,
-  ChatCompletionCreateParamsStreaming,
-  ChatCompletionMessageParam,
-  ChatCompletionMessageToolCall,
-  ChatCompletionTool,
+    ChatCompletion,
+    ChatCompletionAssistantMessageParam,
+    ChatCompletionChunk,
+    ChatCompletionContentPart,
+    ChatCompletionContentPartImage,
+    ChatCompletionContentPartInputAudio,
+    ChatCompletionContentPartRefusal,
+    ChatCompletionContentPartText,
+    ChatCompletionCreateParams,
+    ChatCompletionCreateParamsStreaming,
+    ChatCompletionMessageParam,
+    ChatCompletionTool
 } from "openai/resources/index.js";
 import {
-  Response,
-  ResponseCreateParams,
-  ResponseFunctionCallArgumentsDoneEvent,
-  ResponseIncompleteEvent,
-  ResponseInput,
-  ResponseInputAudio,
-  ResponseInputContent,
-  ResponseInputFile,
-  ResponseInputImage,
-  ResponseInputText,
-  ResponseOutputItem,
-  ResponseOutputMessage,
-  ResponseOutputRefusal,
-  ResponseOutputText,
-  ResponseReasoningSummaryTextDeltaEvent,
-  ResponseStreamEvent,
-  ResponseUsage,
+    Response,
+    ResponseCreateParams,
+    ResponseFunctionCallArgumentsDoneEvent,
+    ResponseIncompleteEvent,
+    ResponseInput,
+    ResponseInputAudio,
+    ResponseInputContent,
+    ResponseInputFile,
+    ResponseInputImage,
+    ResponseInputText,
+    ResponseOutputItem,
+    ResponseOutputMessage,
+    ResponseOutputRefusal,
+    ResponseOutputText,
+    ResponseReasoningSummaryTextDeltaEvent,
+    ResponseStreamEvent,
+    ResponseUsage,
 } from "openai/resources/responses/responses.js";
 
 const RESPONSES_MODEL_REGEX = /^(?:gpt-5|gpt-5-codex|o[0-9])/i;
@@ -94,7 +93,8 @@ function convertMessageContentPart(
     case "image_url":
       return convertImagePart(part);
     case "input_audio":
-      return convertAudioPart(part);
+      // SDK's ResponseInputContent union no longer includes audio; API still accepts it
+      return convertAudioPart(part) as unknown as ResponseInputContent;
     case "file":
       return convertFilePart(part);
     case "refusal":

@@ -1,16 +1,16 @@
 import {
-  converMcpServersJsonConfigFileToYamlBlocks,
-  convertJsonMcpConfigToYamlMcpConfig,
-  convertYamlMcpConfigToJsonMcpConfig,
+    converMcpServersJsonConfigFileToYamlBlocks,
+    convertJsonMcpConfigToYamlMcpConfig,
+    convertYamlMcpConfigToJsonMcpConfig,
 } from "./convertJson.js";
 import type { HttpMcpServer, SseMcpServer, StdioMcpServer } from "./index.js";
 import {
-  claudeDesktopLikeConfigFileSchema,
-  mcpServersJsonSchema,
-  type HttpMcpJsonConfig,
-  type McpServersJsonConfigFile,
-  type SseMcpJsonConfig,
-  type StdioMcpJsonConfig,
+    claudeDesktopLikeConfigFileSchema,
+    mcpServersJsonSchema,
+    type HttpMcpJsonConfig,
+    type McpServersJsonConfigFile,
+    type SseMcpJsonConfig,
+    type StdioMcpJsonConfig,
 } from "./json.js";
 
 describe("convertJsonMcpConfigToYamlMcpConfig", () => {
@@ -208,7 +208,7 @@ describe("convertJsonMcpConfigToYamlMcpConfig", () => {
 
     expect(() =>
       convertJsonMcpConfigToYamlMcpConfig("invalid", invalidConfig),
-    ).toThrowError("Invalid MCP server configuration");
+    ).toThrow("Invalid MCP server configuration");
   });
 });
 
@@ -442,7 +442,7 @@ describe("convertYamlMcpConfigToJsonMcpConfig", () => {
 
     expect(() =>
       convertYamlMcpConfigToJsonMcpConfig(invalidConfig),
-    ).toThrowError("Invalid MCP server configuration");
+    ).toThrow("Invalid MCP server configuration");
   });
 });
 
