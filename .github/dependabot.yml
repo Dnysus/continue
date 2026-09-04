@@ -28,16 +28,6 @@ updates:
     schedule:
       interval: weekly
 
-  - package-ecosystem: gradle
-    directory: "/extensions/intellij"
-    schedule:
-      interval: weekly
-
-  - package-ecosystem: cargo
-    directory: "/sync"
-    schedule:
-      interval: weekly
-
   - package-ecosystem: pip
     directory: "/packages/continue-sdk/python/api"
     schedule:
