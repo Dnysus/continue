@@ -117,7 +117,7 @@
     "untildify": "^6.0.0",
     "uuid": "^9.0.1",
     "vectordb": "0.21.2",
-    "web-tree-sitter": "^0.26.12",
+    "web-tree-sitter": "^0.27.0",
     "win-ca": "^3.5.1",
     "wink-nlp-utils": "^2.1.0",
     "winston": "^3.17.0",
